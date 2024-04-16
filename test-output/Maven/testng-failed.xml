@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Maven]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TerminalCheck(failed)">
+    <classes>
+      <class name="Maven.SeleniumFrameWork.Test9">
+        <methods>
+          <include name="googlelogo"/>
+          <include name="setUp"/>
+          <include name="tearDow"/>
+        </methods>
+      </class> <!-- Maven.SeleniumFrameWork.Test9 -->
+    </classes>
+  </test> <!-- TerminalCheck(failed) -->
+</suite> <!-- Failed suite [Maven] -->

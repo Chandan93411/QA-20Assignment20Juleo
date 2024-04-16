@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonCheckOut]" guice-stage="DEVELOPMENT">
+  <parameter name="MobileNumber" value="8888888888"/>
+  <parameter name="Email" value="abc@gmail.com"/>
+  <parameter name="Product2" value="Head Phones"/>
+  <parameter name="Town" value="Delhi"/>
+  <parameter name="FullName" value="Automation"/>
+  <parameter name="Landmark" value="12378"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="Product" value="smart watch"/>
+  <parameter name="Apartment" value="SL"/>
+  <parameter name="Pincode" value="12378"/>
+  <parameter name="Password" value="456"/>
+  <test thread-count="5" name="AmazonCheckOut_Scenarion(failed)">
+    <classes>
+      <class name="Maven.SeleniumFrameWork.TestComponent.CheckOutTest">
+        <methods>
+          <include name="changeShippingAddress"/>
+          <include name="removingItemFromCart"/>
+          <include name="initializeDriver"/>
+          <include name="addinItemToCart"/>
+        </methods>
+      </class> <!-- Maven.SeleniumFrameWork.TestComponent.CheckOutTest -->
+    </classes>
+  </test> <!-- AmazonCheckOut_Scenarion(failed) -->
+</suite> <!-- Failed suite [AmazonCheckOut] -->
